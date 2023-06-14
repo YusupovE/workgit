@@ -1,0 +1,164 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  position: fixed;
+  height: 85px;
+  z-index: 99;
+  width: 100%;
+  margin: 0 0 30px;
+}
+
+a {
+  text-decoration: none;
+  color: #999;
+}
+
+ul {
+  list-style: none;
+  float: left;
+}
+
+nav ul li + li::before {
+        content: "";
+        border-left: 1px solid #ccc;
+        margin-right: 10px;
+        height: 15px;
+        display: inline-block;
+    } 
+
+h1 {
+  float: left;
+  margin-left: 130px;
+  width: 200px;
+  height: 42px;
+  padding: 21px;
+  background-color: #4aaaa5;
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
+}
+
+li {
+  float: left;
+  text-align: center;
+  display: inline;
+  font-size: 20px;
+  margin-top: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding-left: 20px;
+}
+
+nav {
+  float: right;
+  margin-right: 220px;
+}
+
+body {
+  background: url(../images/pic8.png);
+  width: 80%;
+ 
+  
+}
+
+h3 {
+  
+    color: #ccc;
+font-family: Arial, Helvetica, sans-serif;
+  font-size: 9px;
+  height: 30px;
+  text-align: center;
+  padding: 30px 0px;
+}
+
+.down-class {
+    background-color: #666;
+    border-top: 8px solid #4aaaa5;
+    position: absolute;
+    width: 100%;
+    top: 650px;
+    height: 100px;
+ 
+}
+
+.abc {
+  background: #fff;
+  border: 1px solid #ddd;
+  width: 650px;
+  margin: 0px 0px 40px;
+  padding: 25px;
+  height: 420px;
+}
+
+.container {
+  position: relative;
+  left: 130px;
+  top: 120px;
+  width: 650px;
+  clear: both;
+}
+
+img {
+  width: 200px;
+  float: left;
+  margin-top: 10px;
+  margin-right: 25px;
+}
+
+.abc h2 {
+  font-size: 30px;
+  color: #4aaaa5;
+  margin: 0px 0px 18px;
+  padding: 0px 0px 18px;
+  border-bottom: 2px solid #ccc;
+}
+
+p {
+  margin-top: 10px;
+  margin-right: 25px;
+  color: #777777;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 38px;
+  width: 90%;
+ 
+}
+
+.contact-me {
+  width: 270px;
+  position: absolute;
+  right: 220px;
+  top: 120px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  height: 180px;
+}
+
+.contact-me h2 {
+  text-align: center;
+  border-bottom: 2px solid #ccc;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  color: #4aaaa5;
+  font-size: 22px;
+  margin: 20px;
+  padding-bottom: 20px;
+  width: 220px;
+}
+
+.contact-me img {
+  width: 62px;
+  height: 62px;
+  float: left;
+  margin: 10px 1px;
+  padding-left: 15px;
+}
+
+.pics img {
+    width: 274px;
+    height: 206;
+}
